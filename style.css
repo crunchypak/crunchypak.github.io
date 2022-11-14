@@ -1,8 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital@1&family=Rock+Salt&display=swap');
+
 h1{
   color: CornflowerBlue;
   text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-size: 50px;
 }
 
 p{
   text-align: center;
+  font-family: 'Aleo', serif;
+  font-size: 20px;
+  
+  
+}
+
+.one{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f6d4fc;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.two{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f6d4fc;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.rectangle{
+  border-radius: 10px;
+  box-shadow: 10px 10px cornflowerBlue;
+}
+
+a{
+  text-decoration: none;
 }
