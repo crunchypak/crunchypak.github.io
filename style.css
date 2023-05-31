@@ -49,10 +49,9 @@ h1:hover::after{
 a{
   text-decoration: none;
   color: black;
-  position: relative;
 }
 
-p{
+.intro{
   text-align: center;
   margin-bottom: 5vh;
   font-family: 'Open Sans', sans-serif;
@@ -80,18 +79,13 @@ p{
   border: 3px solid black;
   height: 300px;
   cursor: pointer;
-  /*position: relative;*/
+  position: relative;
+  width: max-content;
 }
 
-a::after{
-  transform: scale(0);
-  transform-origin: bottom right;
-  transition: transform ease-in-out 0.5s;
-}
-
-a:hover::after{
-  transform: scale(1);
-  transform-origin: top left;
+.card:hover {
+  text-decoration: underline;
+  background: #EAD0FF;
 }
 
 .whiteRect{
