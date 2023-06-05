@@ -68,9 +68,9 @@ a{
 
 .card{
   background: #F5F5F5;
-  /*padding: 5rem 8rem;*/
   padding: 100px 130px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 5rem;
@@ -81,10 +81,29 @@ a{
   cursor: pointer;
   position: relative;
   width: max-content;
+  position: relative;
+}
+
+.card-content {
+  transition: opacity ease-in-out .1s;
+}
+
+.card:hover .card-content{
+  opacity: 0;
+}
+
+.card-descrip{
+  position: absolute;
+  width: 80%;
+  opacity: 0;
+  transition: opacity ease-in-out .1s;
+}
+
+.card:hover .card-descrip{
+  opacity: 1;
 }
 
 .card:hover {
-  text-decoration: underline;
   background: #EAD0FF;
 }
 
